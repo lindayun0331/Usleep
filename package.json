@@ -1,0 +1,49 @@
+{
+  "name": "sleepcare",
+  "version": "1.0.0",
+  "description": "Usleep sleep monitoring app",
+  "main": "main.js",
+  "scripts": {
+    "dev:app": "uni build --watch --platform app",
+    "dev:custom": "uni build --watch --platform custom",
+    "dev:h5": "uni build --watch --platform h5",
+    "dev:mp-alipay": "uni build --watch --platform mp-alipay",
+    "dev:mp-baidu": "uni build --watch --platform mp-baidu",
+    "dev:mp-kuaishou": "uni build --watch --platform mp-kuaishou",
+    "dev:mp-lark": "uni build --watch --platform mp-lark",
+    "dev:mp-qq": "uni build --watch --platform mp-qq",
+    "dev:mp-toutiao": "uni build --watch --platform mp-toutiao",
+    "dev:mp-weixin": "uni build --watch --platform mp-weixin",
+    "dev:quickapp-webview": "uni build --watch --platform quickapp-webview",
+    "build:app": "uni build --platform app", 
+
+    
+    "build:custom": "uni build --platform custom",
+    "build:h5": "uni build --platform h5",
+    "build:mp-alipay": "uni build --platform mp-alipay",
+    "build:mp-baidu": "uni build --platform mp-baidu",
+    "build:mp-kuaishou": "uni build --platform mp-kuaishou",
+    "build:mp-lark": "uni build --platform mp-lark",
+    "build:mp-qq": "uni build --platform mp-qq",
+    "build:mp-toutiao": "uni build --platform mp-toutiao",
+    "build:mp-weixin": "uni build --platform mp-weixin",
+    "build:quickapp-webview": "uni build --platform quickapp-webview",
+    "check-size": "node scripts/build-check.js",
+    "optimize": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.8",
+    "@qiun/ucharts": "^2.5.0-20230101",
+    "pinia": "^3.0.3",
+    "uview-ui": "^2.0.38",
+    "vue": "^2.7.0"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "2.0.2-3080720230703001",
+    "@dcloudio/vue-cli-plugin-uni": "2.0.2-3080720230703001"
+  },
+  "browserslist": [
+    "Android >= 4.4",
+    "ios >= 9"
+  ]
+}

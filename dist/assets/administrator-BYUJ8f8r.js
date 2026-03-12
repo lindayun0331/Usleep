@@ -1,0 +1,1 @@
+import{h as a}from"./http-ncvYpUvU.js";const s=t=>a({method:"post",url:"/administrator/Admin/login",data:t}),n=(t,o)=>a({method:"get",url:"/administrator/Admin/list",params:{page:t,size:o}}),r=t=>a({method:"post",url:"/administrator/Admin/add",data:t}),i=t=>a({method:"post",url:"/administrator/Admin/delete",params:{id:t}});export{r as a,i as d,n as g,s as l};

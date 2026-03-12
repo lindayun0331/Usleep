@@ -1,0 +1,1 @@
+import{h as e}from"./http-ncvYpUvU.js";const r=(t,s,d)=>e({method:"get",url:"/user/Admin/list",params:{page:t,size:s,search:d}}),a=t=>e({method:"post",url:"/user/Admin/add",data:t}),m=t=>e({method:"post",url:"/user/Admin/delete",params:{id:t}}),n=()=>e({method:"get",url:"/user/Admin/otherList"});export{r as a,a as b,m as d,n as g};

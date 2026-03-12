@@ -1,0 +1,1 @@
+import{h as r}from"./http-ncvYpUvU.js";const m=(t,e,s)=>r({method:"get",url:"/report/Admin/list",params:{page:t,size:e,search:s}}),p=t=>r({method:"post",url:"/report/Admin/delete",params:{id:t}}),a=(t,e)=>r({method:"post",url:"/report/Admin/ceshi",params:{page:t,size:e}});export{a as c,p as d,m as g};
