@@ -1,4 +1,5 @@
 <template>
+	<!-- 测试提交更新代码到github -->
     <view class="content">
         <!--背景图-->
           <image
